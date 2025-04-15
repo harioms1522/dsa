@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",               // Or "ES6" or later
+      "module": "ESNext",               // Or "ES6", "ES2020", "NodeNext" if using Node.js
+      "moduleResolution": "Node",
+      "esModuleInterop": true,         // Enables compatibility with CommonJS modules
+      "allowSyntheticDefaultImports": true,
+      "outDir": "./dist",              // Optional: output folder
+      "rootDir": "./src",              // Optional: your source folder
+      "strict": true,                   // Optional: enables all strict type-checking options
+      "baseUrl": "./"
+    },
+    "include": ["src"]
+  }
+  

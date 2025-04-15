@@ -1,0 +1,34 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "this is a dsa learning codebase",
+  "main": "index.js",
+  "type": "module",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch",
+    "serve": "nodemon dist/index.js",
+    "dev": "concurrently \"npm:watch\" \"npm:serve\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harioms1522/dsa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harioms1522/dsa/issues"
+  },
+  "homepage": "https://github.com/harioms1522/dsa#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9",
+    "tsc": "^2.0.4"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
